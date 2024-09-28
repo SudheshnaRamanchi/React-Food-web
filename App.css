@@ -1,0 +1,92 @@
+/* General container styling */
+.container {
+  margin-top: 20px;
+}
+
+/* Card styling */
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 1px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Card image styling */
+.card-img-top {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-top-left-radius: 1px;
+  border-top-right-radius: 1px;
+}
+
+/* Card body styling */
+.card-body {
+  text-align: center;
+  padding: 10px;
+  box-shadow: 5px 40px 80px rgba(255, 20, 147, 0.5);
+}
+
+/* Card title styling */
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #201c1c;
+}
+
+/* Button styling */
+.card .btn-primary {
+  background-color: #ff69b4; /* Baby pink button */
+  border-color: #ff69b4;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card .btn-primary:hover {
+  background-color: #ff1493; /* Darker pink on hover */
+  box-shadow: 5px 40px 80px rgba(255, 20, 147, 0.5);
+}
+
+/* No recipes text styling */
+p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #615e5e;
+}
+
+
+.footer {
+  background-color: #ff44c7b5;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid #ffffff;
+}
+
+.footer-content p {
+  margin: 5px 0;
+  color: #ffffff;
+}
+
+.footer-content a {
+  color: #cd0808;
+  text-decoration: none;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive layout adjustments */
+@media (max-width: 768px) {
+  .col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
